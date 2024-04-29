@@ -1,0 +1,57 @@
+[
+    {
+        "name":"證照名稱",
+        "wh":"發照單位",
+        "date":"發照日期",
+        "img":"圖片來源"
+    },
+    {
+        "name":"Computing 1.0 Python",
+        "wh":"ICDL",
+        "date":"1110529",
+        "img":"/imgs/證照/python.png"
+    },
+    {
+        "name":"IT Security ",
+        "wh":"ICDL",
+        "date":"1120521",
+        "img":"imgs/證照/IT.png"
+    },
+    {
+        "name":"PowerPoint 2016",
+        "wh":"ICDL",
+        "date":"1120520",
+        "img":"imgs/證照/PPT.png"
+    },
+    {
+        "name":"Spreadsheets Excel 2016",
+        "wh":"ICDL",
+        "date":"1091219",
+        "img":"/imgs/證照/EXCEL.png"
+    },
+    {
+        "name":"Azure Data Fundamentals",
+        "wh":"Microsoft",
+        "date":" 1110507 ",
+        "img":"/imgs/證照/DP.png"
+    },
+    {
+        "name":"Azure AI Fundamentals",
+        "wh":"Microsoft",
+        "date":"1110423 ",
+        "img":"/imgs/證照/AI.png"
+    },
+    {
+        "name":"Azure Fundamentals",
+        "wh":"Microsoft",
+        "date":"1110519 ",
+        "img":"/imgs/證照/AZ.png"
+    },
+    {
+        "name":"Google Analytics(分析)",
+        "wh":"Google",
+        "date":"1120910 ",
+        "img":"imgs/證照/GA.png"
+    }
+]
+
