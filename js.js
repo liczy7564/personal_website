@@ -22,7 +22,7 @@ $(function(){
     url:"information/event.json",
     success:function(result){
       for(let i=0;i<result.length;i++){
-      the_event.innerHTML+="<div class='event_block'><img class='event_img' src='"+
+      the_event.innerHTML+="<div class='event_block'><img loading='lazy' class='event_img' src='"+
       result[i]['img']+"'alt='"+
       result[i]['name']+"'><div class='event_content'><div class='event_source'>"+
       result[i]['source']+"</div><div class='event_name'>"+
@@ -35,7 +35,7 @@ $(function(){
     url:"information/Awards.json",
     success:function(result){
       for(let i=0;i<result.length;i++){
-      Awards_block.innerHTML+="<div class='content_block_1'><img class='Straight_img' src='"+
+      Awards_block.innerHTML+="<div class='content_block_1'><img class='Straight_img' loading='lazy' src='"+
       result[i]['img']+"'alt='"+
       result[i]['name']+"'><p class='text_center'>"+
       result[i]['name']+"</p></div>"
@@ -47,7 +47,7 @@ $(function(){
     url:"information/Records.json",
     success:function(result){
       for(let i=1;i<result.length;i++){
-        University_Officer_Records.innerHTML+="<div class='content_block_1'><img class='Straight_img' src='"+
+        University_Officer_Records.innerHTML+="<div class='content_block_1'><img class='Straight_img' loading='lazy' src='"+
       result[i]['img']+"'alt='"+
       result[i]['name']+"'><p class='text_center'>"+
       result[i]['name']+"</p></div>"
@@ -59,7 +59,7 @@ $(function(){
     url:"information/activity.json",
     success:function(result){
       for(let i=1;i<result.length;i++){
-        activity_block.innerHTML+="<div class='content_block_1'><img class='Horizontal_img' src='"+
+        activity_block.innerHTML+="<div class='content_block_1'><img class='Horizontal_img' loading='lazy' src='"+
       result[i]['img']+"'alt='"+
       result[i]['name']+"'><p class='text_center'>"+
       result[i]['name']+"</p></div>"
@@ -71,7 +71,7 @@ $(function(){
     url:"information/Certificate.json",
     success:function(result){
       for(let i=1;i<result.length;i++){
-        Certificate.innerHTML+="<div class='content_block_1'><img class='Straight_img' src='"+
+        Certificate.innerHTML+="<div class='content_block_1'><img class='Straight_img' loading='lazy' src='"+
       result[i]['img']+"'alt='"+
       result[i]['name']+"'><p class='text_center'>"+
       result[i]['name']+"</p></div>"
