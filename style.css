@@ -63,7 +63,7 @@ a{
 }
 @media (min-width:768px) {	/* 大 */
 	.Introduction_section{
-		background-image: url(imgs/main/首圖w.JPG);
+		background-image: url(首圖Ｗ.PNG);
 		background-color: #EBF0FF;
 		min-height: 100vh;
 		background-size: cover;
