@@ -1,14 +1,14 @@
-html{
+ /*----------基礎設定--------*/
+  html{
 	scroll-behavior: smooth;
 }
-  /*----------基礎設定--------*/
 body{
 	max-width: 1280px;
 	box-shadow: 0 1px 8px 3px rgba(0,0,0,.1);
 	margin: auto;
 	padding:0;
-	  /* background: #FFF8E4; */
 }
+
 *::-webkit-scrollbar {
 	display: none; /* 隱藏滾動條 */
 }
@@ -63,8 +63,8 @@ a{
 }
 @media (min-width:768px) {	/* 大 */
 	.Introduction_section{
-		background-image: url(首圖Ｗ.png);
-		background-color: #F4F4ED;
+		background-image: url(imgs/main/首圖w.jpg);
+		background-color: var(--theme-Dark-color);
 		min-height: 100vh;
 		background-size: cover;
 		background-position:center;
@@ -75,8 +75,9 @@ a{
 	}
 	.the_Introduction{
 		width: 45vw;
+		max-width: 600px;
 		min-width: 300px;
-		margin: 30vh auto 80px 45vw;
+		margin: 30vh 40px 80px 50%;
 		border:3px solid #C8CFC3;
 		background: rgb(244 244 236 / 83%);
 		border-radius: 16px;
@@ -99,7 +100,7 @@ a{
 		order: 2;
 	}
 	.Straight_img{
-		height: 39vh;
+		height: 42vh;
 		border-radius: 10px;
 	}
 	.Horizontal_img{
@@ -139,7 +140,7 @@ a{
         aspect-ratio: 14 / 15;
         background-size: 100% 100%;
         object-fit: cover;
-        background-color: #EBF0FF;
+        background-color: var(--theme-Dark-color);
 		width: 100%;
 	}
 	.display-sm{
@@ -151,7 +152,7 @@ a{
 	.the_Introduction{
 		height: 100%;
         width: 85%;
-        padding-top: 36%;
+        padding-top: 51%;
         padding-left: 19%;
 	}
 	.work_block{
@@ -166,7 +167,7 @@ a{
 	}
 	.the_Introduction p{
 		font-size: 12px;
-		margin-top: 35%;
+		margin-top: 10%;
 	}
 	.work_img{
 		display: none;
@@ -182,13 +183,13 @@ a{
 	.navbar-nav{
 		padding: 20px;
 	}
-.tin_w50vw{
-	max-width: 50vw;
-	position: absolute;
-    right: 15px;
-	position: fixed;
-	top: 0px;
-}
+	.tin_w50vw{
+		max-width: 50vw;
+		position: absolute;
+		right: 15px;
+		position: fixed;
+		top: 0px;
+	}
 
 } 
 .h800px{
@@ -502,6 +503,9 @@ table {
 	overflow: auto;
 	max-width: 400px;
 	margin: auto;
+	padding: 10px;
+    border-radius: 12px;
+	border: 2px solid var(--Dark-color);
 }
 /* .header{
     height: 40px;
