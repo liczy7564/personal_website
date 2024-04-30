@@ -471,7 +471,7 @@ table {
     flex-direction: column;
 }
 .background_1{
-	background: url(imgs/main/IMG.jpg);
+	background: url(imgs/main/IMG.JPG);
 	background-size: cover;
 	background-position: center;
 }
